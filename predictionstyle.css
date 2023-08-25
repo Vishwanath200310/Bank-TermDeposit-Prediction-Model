@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+
+h1 {
+    color: #333;
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+#prediction-result {
+    margin-top: 50px;
+  }
+
+#input-form {
+    margin-top: 50px;
+  }
+
+  #input-value {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #555;
+  }

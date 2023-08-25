@@ -1,0 +1,136 @@
+<html>
+<head>
+  <title>Machine Learning Model Showcase</title>
+  <link rel="stylesheet" type="text/css" href="predictionstyle.css">
+</head>
+<body>
+  <h1>Machine Learning Model Showcase</h1>
+  
+  
+
+  <div id="input-form">
+    <h2>Job Type:</h2>
+    <select id="input-value">
+      <option value="option1">Admin</option>
+      <option value="option2">Blue-Collar</option>
+      <option value="option3">Entreprenuer</option>
+      <option value="option4">Housemaid</option>
+      <option value="option5">Management</option>
+      <option value="option6">Retired</option>
+      <option value="option7">Self-employed</option>
+      <option value="option8">Services</option>
+      <option value="option9">Student</option>
+      <option value="option10">Technician</option>
+      <option value="option11">Unemployed</option>
+      <option value="option12">Unknown</option>
+    </select>  
+  </div>
+
+  <div id="input-form">
+    <h2>Age Group:</h2>
+    <select id="input-value">
+      <option value="option1">18-25</option>
+      <option value="option2">26-35</option>
+      <option value="option3">36-45</option>
+      <option value="option4">46-55</option>
+      <option value="option5">56-65</option>
+      <option value="option6">66-75</option>
+      <option value="option7">76-85</option>
+      <option value="option8">86-95</option>
+    </select>  
+  </div>
+
+  <div id="input-form">
+    <h2>Education:</h2>
+    <select id="input-value">
+      <option value="option1">Primary</option>
+      <option value="option2">Secondary</option>
+      <option value="option3">Teritary</option>
+      <option value="option4">Unknown</option>
+    </select>  
+  </div>
+
+  <div id="input-form">
+    <h2>Marital Status:</h2>
+    <select id="input-value">
+      <option value="option1">Single</option>
+      <option value="option2">Married</option>
+      <option value="option3">Divorced</option>
+      <option value="option4">Unknown</option>
+    </select>  
+  </div>
+
+  <div id="input-form">
+    <h2>Default:</h2>
+    <select id="input-value">
+      <option value="option1">Yes</option>
+      <option value="option2">No</option>
+    </select>  
+  </div>
+
+  <div id="input-form">
+    <h2>Housing Loan:</h2>
+    <select id="input-value">
+      <option value="option1">Yes</option>
+      <option value="option2">No</option>
+    </select>  
+  </div>
+
+  <div id="input-form">
+    <h2>Personal Loan:</h2>
+    <select id="input-value">
+      <option value="option1">Yes</option>
+      <option value="option2">No</option>
+    </select>  
+  </div>
+
+  <div id="input-form">
+    <h2>Contact Type:</h2>
+    <select id="input-value">
+      <option value="option1">Unknown</option>
+      <option value="option2">Cellular</option>
+      <option value="option3">Telephone</option>
+    </select>  
+  </div>
+
+  <div id="input-form">
+    <h2>Previous Outcome of the product :</h2>
+    <select id="input-value">
+      <option value="option1">Unknown</option>
+      <option value="option2">Failure</option>
+      <option value="option3">Success</option>
+      <option value="option4">Other</option>
+    </select>  
+  </div>
+
+  <div id="input-form">
+    <h2>Bank Balance:</h2>
+    <input type="number" id="input-value" placeholder="Enter your Bank Balance">
+  </div>
+
+  <div id="input-form">
+    <h2>Duration :</h2>
+    <input type="number" id="input-value" placeholder="Enter phone call duration in secs">
+  </div>
+
+  <div id="input-form">
+    <h2>No of contacts performed:</h2>
+    <input type="number" id="input-value" placeholder="Enter no of days">
+  </div>
+
+  <div id="input-form">
+    <h2>No of days passed after last contact :</h2>
+    <input type="number" id="input-value" placeholder="Enter no of days">
+  </div>
+
+
+  <button onclick="predict()">Predict</button>
+
+  <div id="prediction-result">
+    <h2>Prediction Result:</h2>
+    <p id="prediction-value">-</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
